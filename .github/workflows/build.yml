@@ -31,5 +31,5 @@ jobs:
           prerelease: true
           title: Latest build
           files: |
-            dist/placenl-userscript.user.js
+            dist/spacerplace-userscript.user.js
             spacerplace-userscript-autoupdater.user.js
