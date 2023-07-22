@@ -43,7 +43,7 @@ module.exports = {
         ]
     },
     output: {
-        filename: 'placenl-userscript.user.js'
+        filename: 'spacerplace-userscript.user.js'
     }
 };
 
