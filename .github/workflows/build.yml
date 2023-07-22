@@ -5,6 +5,9 @@ permissions: write-all # there is unfortunately no permission for releases.
 on:
   push:
     branches: [ master ]
+  release:
+    types: [published]
+  
 
 jobs:
   build:
