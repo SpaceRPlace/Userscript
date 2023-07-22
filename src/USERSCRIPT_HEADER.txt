@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name         PlaceNL Userscript
-// @namespace    https://github.com/PlaceNL/Userscript
+// @name         TeamSpace Userscript
+// @namespace    emlynlj.co.uk
 // @version      ___GIT_HASH___
 // @description  The easiest way to run our automated placer, right from your browser
 // @author       PlaceNL
@@ -8,11 +8,11 @@
 // @match        https://new.reddit.com/r/place/*
 // @connect      reddit.com
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=reddit.com
-// @updateURL    https://github.com/PlaceNL/Userscript/releases/download/latest/placenl-userscript.user.js
-// @downloadURL  https://github.com/PlaceNL/Userscript/releases/download/latest/placenl-userscript.user.js
+// @updateURL    https://github.com/SpaceRPlace/Userscript/releases/download/latest/spacerplace-userscript.user.js
+// @downloadURL  https://github.com/PlaceNL/SpaceRPlace/releases/download/latest/spacerplace-userscript.user.js
 // ==/UserScript==
 
 /*
  * The code below is a minified, webpacked bundle.
- * The uncompiled source code can be found at https://github.com/PlaceNL/Userscript
+ * The uncompiled source code can be found at https://github.com/SpaceRPlace/Userscript
  */
