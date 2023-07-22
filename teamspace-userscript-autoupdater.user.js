@@ -8,14 +8,14 @@
 // @match        https://new.reddit.com/r/place/*
 // @connect      reddit.com
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=reddit.com
-// @updateURL    https://github.com/SpaceRPlace/Userscript/releases/download/latest/placenl-userscript-autoupdater.user.js
-// @downloadURL  https://github.com/SpaceRPlace/Userscript/releases/download/latest/placenl-userscript-autoupdater.user.js
+// @updateURL    https://github.com/SpaceRPlace/Userscript/releases/download/latest/spacerplace-userscript-autoupdater.user.js
+// @downloadURL  https://github.com/SpaceRPlace/Userscript/releases/download/latest/spacerplace-userscript-autoupdater.user.js
 // @grant        GM.xmlHttpRequest
 // @connect      github.com
 // @connect      objects.githubusercontent.com
 // ==/UserScript==
 
-const SCRIPT_LOCATION = 'https://github.com/SpaceRPlace/Userscript/releases/download/latest/placenl-userscript.user.js';
+const SCRIPT_LOCATION = 'https://github.com/SpaceRPlace/Userscript/releases/download/latest/spacerplace-userscript.user.js';
 const UPDATE_CHECK_INTERVAL = 10 * 60 * 1000;
 
 (function () {
