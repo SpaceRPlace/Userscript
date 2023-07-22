@@ -29,4 +29,4 @@ jobs:
           title: Latest build
           files: |
             dist/placenl-userscript.user.js
-            placenl-userscript-autoupdater.user.js
+            spacerplace-userscript-autoupdater.user.js
