@@ -4,7 +4,7 @@ import {USERSCRIPT_REVISION} from './constants.js';
 import {lang} from './lang/language.js';
 
 export const HUDToast = Toastify({
-    text: 'PlaceNL Userscript',
+    text: 'TeamSpace Userscript',
     duration: -1,
     close: false,
     gravity: 'bottom',
@@ -33,7 +33,7 @@ export function setHUDBody(body) {
 }
 
 function reshowHUD() {
-    HUDToast.options.text = `PlaceNL Userscript (version ${USERSCRIPT_REVISION.slice(0, 7)}${(typeof unsafeWindow !== 'undefined' ? unsafeWindow : window).PLACENL_USERSCRIPT_AUTO_UPDATER ? '-auto' : ''}) | ${HUDToast.title}\n${HUDToast.body}`;
+    HUDToast.options.text = `TeamSpace Userscript (version ${USERSCRIPT_REVISION.slice(0, 7)}${(typeof unsafeWindow !== 'undefined' ? unsafeWindow : window).PLACENL_USERSCRIPT_AUTO_UPDATER ? '-auto' : ''}) | ${HUDToast.title}\n${HUDToast.body}`;
     HUDToast.hideToast();
     HUDToast.toastElement.parentNode.removeChild(HUDToast.toastElement);
     HUDToast.showToast();
